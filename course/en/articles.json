@@ -1,0 +1,28 @@
+[
+	{
+		"_id": "a-main",
+		"_parentId": "co-main",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-05",
+		"displayTitle": "",
+		"body": "",
+		"_splashVideo": {
+			"_isEnabled": false,
+			"_src": "course/en/videos/gears_spin01.mp4",
+			"start": 6,
+			"end": 8,
+			"_backgroundColor": "#fff",
+			"_showWhenCompleted": false
+		}
+	},
+	{
+		"_id": "a-html",
+		"_parentId": "co-html",
+		"_type": "article",
+		"_classes": "",
+		"title": "HTML Component Examples",
+		"displayTitle": "",
+		"body": ""
+	}
+]

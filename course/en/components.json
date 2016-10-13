@@ -1,0 +1,430 @@
+[
+	{
+		"_id": "c-flipper",
+		"_parentId": "b-01",
+		"_type": "component",
+		"_component": "flipper",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Flipper",
+		"displayTitle": "Flipper",
+		"instruction": "Click the Arrow to begin",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"width": 320,
+		"_items": [
+			{
+				"_graphic": {
+					"src": "course/en/images/flip.png",
+					"alt": "Flipper"
+				}
+			},
+			{
+				"title": "Welcome",
+				"body": "To the Flipper component!",
+				"instruction": "Next »"
+			},
+			{
+				"title": "You can currently have...",
+				"body": "...up to twelve items.",
+				"instruction": "Next »"
+			},
+			{
+				"title": "Only 12??",
+				"body": "This should be more than plenty. If not, you should probably consider using a different component or splitting your content up.",
+				"instruction": "Next »"
+			},
+			{
+				"title": "To infinity...",
+				"body": "...and beyond. When you reach the end you can simply start again.",
+				"instruction": "Next »"
+			},
+			{
+				"title": "Why use a flipper",
+				"body": "Whilst you can include graphics, this element is particularly useful for making text lists a bit more interesting.",
+				"instruction": "Next »"
+			},
+			{
+				"title": "That's it",
+				"body": "Happy flipping!",
+				"instruction": "Complete ✔"
+			}
+		]
+	},
+	{
+		"_id": "c-stacklist",
+		"_parentId": "b-01",
+		"_type": "component",
+		"_component": "stacklist",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Stacklist",
+		"displayTitle": "Stacklist",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_items": [
+			"This component is useful for making boring text lists that little bit more interactive.",
+			"List items slide in from alternating sides.",
+			"There is no limit to the number of items you can have.",
+			"Although if you have too many it will be a bit boring.",
+			"At least now you get the gist of how this works.",
+			"That's pretty much it."
+		]
+	},
+	{
+		"_id": "c-flipper-link",
+		"_parentId": "b-01",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "text-link",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "<a class='button' href='http://github.com/danielstorey/adapt-flipper' target='_blank'>Click here to view on Github</a>"
+	},
+	{
+		"_id": "c-stacklist-link",
+		"_parentId": "b-01",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "text-link",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "<a class='button' href='http://github.com/danielstorey/adapt-stacklist' target='_blank'>Click here to view on Github</a>"
+	},
+
+	{
+		"_id": "c-blinds",
+		"_parentId": "b-02",
+		"_type": "component",
+		"_component": "blinds",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Blinds",
+		"displayTitle": "Blinds",
+		"instruction": "Hover over each image to find out more",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"height": 400,
+		"expandBy":2.8,
+		"captionDelay": 600,
+		"_items": [
+			{
+				"backgroundImage": "course/en/images/batman.jpg",
+				"captions": [
+					{
+						"text": "Each image can display optional captions."
+					}
+				]
+			},
+			{
+				"backgroundImage": "course/en/images/spiderman.jpg",
+				"captions": [
+					{
+						"text": "You can have more than one caption..."
+					},
+					{
+						"text": "...just like this"
+					}
+				]
+			},
+			{
+				"backgroundImage": "course/en/images/superman.jpg",
+				"captions": [
+					{
+						"text": "You can even set the position and width yourself..."
+					},
+					{
+						"text": "...like this...",
+						"top": 100,
+						"left": "60%",
+						"width": "50%"
+					},
+					{
+						"text": "...and this.",
+						"left": 30,
+						"width": 230
+					}
+				]
+			},
+			{
+				"backgroundImage": "course/en/images/hulk.jpg",
+				"captions": [
+					{
+						"text": "Like I said, captions are optional."
+					},
+					{
+						"text": "Captain America doesn't say much"
+					}
+				]
+			},
+			{
+				"backgroundImage": "course/en/images/captain-america.jpg"
+			}
+		]
+	},
+	{
+		"_id": "c-blinds-link",
+		"_parentId": "b-02",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "text-link",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "<a class='button' href='http://github.com/danielstorey/adapt-blinds' target='_blank'>Click here to view on Github</a>"
+	},
+	{
+		"_id": "c-bgscroll",
+		"_parentId": "b-bgscroll",
+		"_type": "component",
+		"_component": "backgroundScroll",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Background Scroll",
+		"displayTitle": "",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_items": [
+			{
+				"image": "course/en/images/backgrounds/background1.jpg",
+				"title": "The Background Scroll Component",
+				"body": "This component is great for using when you have high quality HD images to work with."
+			},
+			{
+				"image": "course/en/images/backgrounds/background2.jpg",
+				"title": "Single Component - Multiple Backgrounds",
+				"body": "Each item has its own background image, title and description."
+			},
+			{
+				"image": "course/en/images/backgrounds/background3.jpg",
+				"title": "",
+				"body": "Titles are optional so you can just display a paragraph of text if preferred."
+			},
+			{
+				"image": "course/en/images/backgrounds/background4.jpg",
+				"title": "Feel more connected",
+				"body": "The image fades are determined by your scroll position rather than being a triggered animation, making the transition feel more connected with the learner's interaction."
+			},
+			{
+				"image": "course/en/images/backgrounds/background5.jpg",
+				"title": "Completing the Component",
+				"body": "There is a timer on each item to make sure the learner cannot complete the component simply by scrolling to the bottom instantly."
+			},
+			{
+				"image": "course/en/images/backgrounds/background6.jpg",
+				"title": "Make an Impact",
+				"body": "Get your learner's attention using high quality images with the Background Scroll component."
+			}
+		]
+	},
+
+	{
+		"_id": "c-draganddrop",
+		"_parentId": "b-draganddrop",
+		"_type": "component",
+		"_component": "draganddrop",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 100,
+		"title": "Drag & Drop",
+		"displayTitle": "Drag & Drop",
+		"body": "",
+		"instruction": "Do you know what colour these well-known superheroes are? Drag the items below into the correct slots.<br><br>You should also check out what happens if you get it wrong and click Show Model Answer because it's quite cool.",
+		"_background" : "",
+		"_items": [
+			{
+				"text": "What colour is The Hulk?",
+				"_accepted": "Green"
+			},
+			{
+				"text": "What colour is Spiderman?",
+				"_accepted": ["Red", "Blue"]
+			},
+			{
+				"text": "What colour is Wolverine?",
+				"_accepted": "Yellow"
+			}
+
+		],
+		"dummyAnswers": ["Black", "Brown"],
+		"animationTime": 800,
+		"animationDelay": 100,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-draganddrop-link",
+		"_parentId": "b-draganddrop",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "text-link",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "<a class='button' href='http://github.com/danielstorey/adapt-draganddrop' target='_blank'>Click here to view on Github</a>"
+	},
+
+	{
+		"_id": "c-reveal",
+		"_parentId": "b-reveal",
+		"_type": "component",
+		"_component": "reveal",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Reveal",
+		"displayTitle": "Reveal",
+		"body": "",
+		"instruction": "Click each item to remove the front cover and display the content underneath. Clicking again will restore the item to its original state.",
+		"_columns" : 3,
+		"_animationType": "shrink",
+		"_items": [
+			{
+				"front": "How versatile am I?",
+				"back": {
+					"title": "Titles are optional",
+					"body": "You can have text or images as content and can pick from a range of different animations"
+				}
+			},
+			{
+				"front": "?",
+				"back": {
+					"title": "Default Settings",
+					"body": "By default the front cover will display a question mark and will fade out when clicked"
+				}
+			},
+			{
+				"front": "Animations",
+				"back": {
+					"title": "This is the \"shrink\" animation",
+					"body": "You can also choose various slide and flip animations. Click the link below to find out more"
+				}
+			}
+
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-reveal-link",
+		"_parentId": "b-reveal",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "text-link",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "<a class='button' href='http://github.com/danielstorey/adapt-reveal' target='_blank'>Click here to view on Github</a>"
+	},
+
+
+	{
+		"_id": "c-html-1",
+		"_parentId": "b-html",
+		"_type": "component",
+		"_component": "html",
+		"_classes": "",
+		"_layout": "full",
+		"title": "HTML - Custom Template",
+		"displayTitle": "HTML - Custom Template",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_template" : "custom-html"
+	},
+	{
+		"_id": "c-html-2",
+		"_parentId": "b-html",
+		"_type": "component",
+		"_component": "html",
+		"_classes": "",
+		"_layout": "full",
+		"title": "HTML - Default Template Basic",
+		"displayTitle": "HTML - Default Template Basic",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_items": [
+			"If you do not specify a template then the component will use its supplied default.",
+			"There's lot that can be accomplished using the default template.",
+			"In its most basic form it will render an array of \"_items\" into individual elements with a class of .html-item which can then be styled as you choose.",
+			"Each item is also given a class of .nth-child-n according to its index.",
+			"So you can style each item independently."
+		]
+	},
+	{
+		"_id": "c-html-3",
+		"_parentId": "b-html",
+		"_type": "component",
+		"_component": "html",
+		"_classes": "",
+		"_layout": "full",
+		"title": "HTML - Default Template Advanced",
+		"displayTitle": "HTML - Default Template Advanced",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_items": [
+			"You can also specify an object as one of the \"_items\" which will render each of its properties into a separate element with a class .html-item-{{property}}. This is useful for rendering multiple items each with different elements or sections.",
+			{
+				"title": "Item 1",
+				"description": "Using the _id of the component and the nth-child classes you can apply custom styling to each item and property."
+			},
+			{
+				"title": "Item 2",
+				"description": "In this component for example, the title of each item is assigned a class of .html-item-title."
+			},
+			{
+				"title": "Item 3",
+				"description": "And each description property is rendered into an element with a class of .html-item-description"
+			},
+			{
+				"title": "Item 4",
+				"description": "These items only have two properties, title and description, but there is no limit to the number you can have."
+			}
+		]
+	},
+	{
+		"_id": "c-html-trickle",
+		"_parentId": "b-html",
+		"_type": "component",
+		"_component": "html",
+		"_classes": "",
+		"_layout": "full",
+		"title": "HTML - Trickle",
+		"displayTitle": "HTML - Trickle",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_template" : "custom-html-trickle"
+	},
+	{
+		"_id": "c-html-clickme",
+		"_parentId": "b-html",
+		"_type": "component",
+		"_component": "html",
+		"_classes": "",
+		"_layout": "full",
+		"title": "HTML - Click Me",
+		"displayTitle": "HTML - Click Me",
+		"body": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_template" : "custom-html-clickme"
+	}
+]
