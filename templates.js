@@ -451,62 +451,62 @@ this["Handlebars"]["templates"]["backgroundScroll"] = Handlebars.template({"1":f
 
   return "            <div class=\"bg-scroll-background\" style=\"background-image: url('"
     + container.escapeExpression(((helper = (helper = helpers.image || (depth0 != null ? depth0.image : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"image","hash":{},"data":data}) : helper)))
-    + "');\"></div>\n";
+    + "');\"></div>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {};
 
-  return "            <div class=\"bg-scroll-item\">\n                <div class=\"bg-scroll-item-inner clearfix\">\n"
+  return "            <div class=\"bg-scroll-item\">\r\n                <div class=\"bg-scroll-item-inner clearfix\">\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.title : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "                    <div class=\"bg-scroll-buttons\"></div>\n                </div>\n            </div>\n";
+    + "                    <div class=\"bg-scroll-buttons\"></div>\r\n                </div>\r\n            </div>\r\n";
 },"4":function(container,depth0,helpers,partials,data) {
     var helper;
 
   return "                    <div class=\"bg-scroll-title component-title\">"
     + container.escapeExpression(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"title","hash":{},"data":data}) : helper)))
-    + "</div>\n";
+    + "</div>\r\n";
 },"6":function(container,depth0,helpers,partials,data) {
     var helper;
 
   return "                    <div class=\"bg-scroll-body\">"
     + container.escapeExpression(((helper = (helper = helpers.body || (depth0 != null ? depth0.body : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"body","hash":{},"data":data}) : helper)))
-    + "</div>\n";
+    + "</div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {};
 
   return "<div class=\"background-scroll-inner component-inner\" role=\"region\" aria-label=\""
     + container.escapeExpression(container.lambda(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._components : stack1)) != null ? stack1._text : stack1)) != null ? stack1.ariaRegion : stack1), depth0))
-    + "\">\n"
+    + "\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "\n    <div class=\"bg-scroll\">\n        <div class=\"bg-scroll-images\">\n"
+    + "\r\n    <div class=\"bg-scroll\">\r\n        <div class=\"bg-scroll-images\">\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "        </div>\n        <div class=\"bg-scroll-items\">\n"
+    + "        </div>\r\n        <div class=\"bg-scroll-items\">\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "        </div>\n    </div>\n\n</div>";
+    + "        </div>\r\n    </div>\r\n\r\n</div>";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["blinds"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : {};
 
-  return "                <div class=\"blinds-item\" style=\"background-image:url('"
+  return "					<div class=\"blinds-item\" style=\"background-image:url('"
     + container.escapeExpression(((helper = (helper = helpers.backgroundImage || (depth0 != null ? depth0.backgroundImage : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"backgroundImage","hash":{},"data":data}) : helper)))
-    + "')\">\n                    <div class=\"blinds-captions\">\n"
+    + "')\">\r\n						<div class=\"blinds-captions\">\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.captions : depth0),{"name":"each","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "                    </div>\n                </div>\n";
+    + "						</div>\r\n					</div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "                        <p>"
+  return "								<p>"
     + container.escapeExpression(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"text","hash":{},"data":data}) : helper)))
-    + "</p>\n";
+    + "</p>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"blinds-inner component-inner\">\n"
-    + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "    <div class=\"blinds-widget component-widget\">\n        <div class=\"blinds-items-container\">\n            <div class=\"blinds-items clearfix\">\n"
+  return "<div class=\"blinds-inner component-inner\">\r\n"
+    + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"\t","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "	<div class=\"blinds-widget component-widget\">\r\n		<div class=\"blinds-container\">\r\n			<div class=\"blinds-items clearfix\">\r\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "            </div>\n        </div>\n    </div>\n</div>\n";
+    + "			</div>\r\n		</div>\r\n	</div>\r\n</div>\r\n";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["accordion"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1404,21 +1404,19 @@ this["Handlebars"]["templates"]["draganddrop"] = Handlebars.template({"1":functi
 },"3":function(container,depth0,helpers,partials,data) {
     return "correct";
 },"5":function(container,depth0,helpers,partials,data) {
-    var helper;
-
-  return "                <div class=\"draganddrop-question\">\n                    <div class=\"draganddrop-question-text\">"
-    + container.escapeExpression(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"text","hash":{},"data":data}) : helper)))
-    + "</div>\n                </div>\n";
+    return "                <div class=\"draganddrop-question\">\r\n                    <div class=\"draganddrop-question-text\">"
+    + container.escapeExpression(container.lambda((depth0 != null ? depth0._text : depth0), depth0))
+    + "</div>\r\n                </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {};
 
-  return "<div class=\"draganddrop-inner component-inner\">\n"
+  return "<div class=\"draganddrop-inner component-inner\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "    <div class=\"draganddrop-widget component-widget "
     + ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0._isEnabled : depth0),{"name":"unless","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\n\n        <div class=\"draganddrop-container\">\n\n            <div class=\"draganddrop-overlay\"></div>\n\n            <div class=\"draganddrop-questions\">\n"
+    + "\">\r\n\r\n        <div class=\"draganddrop-container\">\r\n\r\n            <div class=\"draganddrop-overlay\"></div>\r\n\r\n            <div class=\"draganddrop-questions\">\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "            </div>\n\n            <div class=\"draganddrop-answers clearfix\">\n            </div>\n\n        </div>\n    </div>\n\n    <div class=\"buttons\">\n    </div>\n</div>  ";
+    + "            </div>\r\n\r\n            <div class=\"draganddrop-answers clearfix\">\r\n            </div>\r\n\r\n        </div>\r\n\r\n        <div class=\"buttons\">\r\n        </div>\r\n    </div>\r\n</div>  \r\n";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["flipper"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1426,15 +1424,15 @@ this["Handlebars"]["templates"]["flipper"] = Handlebars.template({"1":function(c
 
   return "                <div class=\"flipper-item nth-child-"
     + container.escapeExpression(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
-    + "\">\n                    "
+    + "\">\r\n                    "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.title : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                    "
+    + "\r\n                    "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                    "
+    + "\r\n                    "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0._graphic : depth0),{"name":"if","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                    "
+    + "\r\n                    "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.instruction : depth0),{"name":"if","hash":{},"fn":container.program(8, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                </div>\n";
+    + "\r\n                </div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -1464,11 +1462,11 @@ this["Handlebars"]["templates"]["flipper"] = Handlebars.template({"1":function(c
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"flipper-inner component-inner\">\n"
+  return "<div class=\"flipper-inner component-inner\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "    <div class=\"flipper-widget component-widget\">\n        <div class=\"flipper-container\">\n            <div class=\"flipper stage-0\">\n"
+    + "    <div class=\"flipper-widget component-widget\">\r\n        <div class=\"flipper-container\">\r\n            <div class=\"flipper stage-0\">\r\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "            </div>\n        </div>\n    </div>\n</div>";
+    + "            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["html"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1522,11 +1520,11 @@ this["Handlebars"]["templates"]["reveal"] = Handlebars.template({"1":function(co
 
   return "            <div class=\"reveal-item nth-child-"
     + container.escapeExpression(((helper = (helper = helpers.index || (data && data.index)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"index","hash":{},"data":data}) : helper)))
-    + "\">\n                <div class=\"reveal-item-inner\">\n                    <button class=\"reveal-item-button\"></button>\n                    <div class=\"reveal-item-cover\">\n                        <div class=\"back\"></div>\n                        <div class=\"front\"></div>\n                        <span class=\"text\">"
+    + "\">\r\n                <div class=\"reveal-item-inner\">\r\n                    <button class=\"reveal-item-button\"></button>\r\n                    <div class=\"reveal-item-cover\">\r\n                        <div class=\"back\"></div>\r\n                        <div class=\"front\"></div>\r\n                        <span class=\"text\">"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.front : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.program(4, data, 0),"data":data})) != null ? stack1 : "")
-    + "</span>\n                    </div>\n                    <div class=\"reveal-item-content\">\n"
+    + "</span>\r\n                    </div>\r\n                    <div class=\"reveal-item-content\">\r\n"
     + ((stack1 = helpers["with"].call(alias1,(depth0 != null ? depth0.back : depth0),{"name":"with","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "                    </div>\n                </div>\n            </div>\n";
+    + "                    </div>\r\n                </div>\r\n            </div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -1540,11 +1538,11 @@ this["Handlebars"]["templates"]["reveal"] = Handlebars.template({"1":function(co
 
   return "                            "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.title : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                            "
+    + "\r\n                            "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.body : depth0),{"name":"if","hash":{},"fn":container.program(9, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n                            "
+    + "\r\n                            "
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0._graphic : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n";
+    + "\r\n";
 },"7":function(container,depth0,helpers,partials,data) {
     var stack1;
 
@@ -1568,11 +1566,11 @@ this["Handlebars"]["templates"]["reveal"] = Handlebars.template({"1":function(co
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"reveal-inner component-inner\">\n"
+  return "<div class=\"reveal-inner component-inner\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "    <div class=\"reveal-widget component-widget\">\n        <div class=\"reveal-items clearfix\">\n"
+    + "    <div class=\"reveal-widget component-widget\">\r\n        <div class=\"reveal-items clearfix\">\r\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "        </div>\n    </div>\n</div>\n";
+    + "        </div>\r\n    </div>\r\n</div>\r\n";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["stacklist"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
@@ -1580,19 +1578,19 @@ this["Handlebars"]["templates"]["stacklist"] = Handlebars.template({"1":function
 
   return "            <div class=\"stacklist-item\">"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},depth0,{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "</div>\n";
+    + "</div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
   return "<div class=\"stacklist-inner component-inner\" role=\"region\" aria-label=\""
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._components : stack1)) != null ? stack1._text : stack1)) != null ? stack1.ariaRegion : stack1), depth0))
-    + "\">\n"
+    + "\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "\n    <div class=\"stacklist-widget component-widget\">\n        <div class=\"stacklist-items\">\n"
+    + "\r\n    <div class=\"stacklist-widget component-widget\">\r\n        <div class=\"stacklist-items\">\r\n"
     + ((stack1 = helpers.each.call(depth0 != null ? depth0 : {},(depth0 != null ? depth0._items : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "            <div class=\"stacklist-button\">\n                <button class=\"stacklist-next\" aria-label=\""
+    + "            <div class=\"stacklist-button\">\r\n                <button class=\"stacklist-next\" aria-label=\""
     + alias2(alias1(((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0._globals : depth0)) != null ? stack1._accessibility : stack1)) != null ? stack1._ariaLabels : stack1)) != null ? stack1.next : stack1), depth0))
-    + "\" role=\"button\">Click here to begin</button>\n            </div>\n        </div>\n    </div>\n</div>";
+    + "\" role=\"button\">Click here to begin</button>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["pageLevelProgress"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
