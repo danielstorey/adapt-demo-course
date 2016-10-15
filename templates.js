@@ -1405,8 +1405,8 @@ this["Handlebars"]["templates"]["draganddrop"] = Handlebars.template({"1":functi
     return "correct";
 },"5":function(container,depth0,helpers,partials,data) {
     return "                <div class=\"draganddrop-question\">\r\n                    <div class=\"draganddrop-question-text\">"
-    + container.escapeExpression(container.lambda((depth0 != null ? depth0._text : depth0), depth0))
-    + "</div>\r\n                </div>\r\n";
+    + container.escapeExpression(container.lambda((depth0 != null ? depth0.text : depth0), depth0))
+    + "</div> \r\n                </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : {};
 
