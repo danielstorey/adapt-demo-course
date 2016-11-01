@@ -4788,7 +4788,7 @@ button[disabled="disabled"] {
   padding: 0px;
 }
 .component .component-body {
-  margin: 0 0px 0;
+  margin: 20px 0px 0;
 }
 .component .component-body a {
   text-decoration: underline;
