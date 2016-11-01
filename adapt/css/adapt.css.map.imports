@@ -26,6 +26,8 @@
 @import 'src\components\adapt-flipper\less\flipper.less';
 @import 'src\components\adapt-html\less\html.less';
 @import 'src\components\adapt-reveal\less\reveal.less';
+@import 'src\components\adapt-sortable\less\debug.less';
+@import 'src\components\adapt-sortable\less\sortable.less';
 @import 'src\components\adapt-stacklist\less\stacklist.less';
 @import 'src\extensions\adapt-contrib-assessment\less\assessment.less';
 @import 'src\extensions\adapt-contrib-pageLevelProgress\less\pageLevelProgress.less';
@@ -68,6 +70,7 @@
 @import 'src\theme\adapt-contrib-vanilla\less\src\resources.less';
 @import 'src\theme\adapt-contrib-vanilla\less\src\shadow.less';
 @import 'src\theme\adapt-contrib-vanilla\less\src\slider.less';
+@import 'src\theme\adapt-contrib-vanilla\less\src\sortable.less';
 @import 'src\theme\adapt-contrib-vanilla\less\src\textinput.less';
 @import 'src\theme\adapt-contrib-vanilla\less\src\theme-extras.less';
 @import 'src\theme\adapt-contrib-vanilla\less\src\transitions.less';

@@ -859,7 +859,7 @@ button {
   background-repeat: repeat;
 }
 .results-retry-button {
-  margin: 0 0 0;
+  margin: 20px 0 0;
 }
 .assessmentResults-component.visibility-hidden {
   display: none;
@@ -3718,6 +3718,33 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
   padding: 20px;
   background: #ffffff;
 }
+.debug {
+  padding: 15px;
+  background-color: #4b4e4f;
+  color: #ffffff;
+}
+.debug div {
+  padding: 5px;
+}
+.sortable-items {
+  position: relative;
+}
+.sortable-items.ui-sortable-disabled .sortable-item {
+  cursor: default;
+}
+.sortable-item {
+  padding: 15px;
+  margin: 1px 0;
+  border: #055761;
+  background: #078292;
+  color: #ffffff;
+  cursor: move;
+}
+.sortable-item.ui-sortable-helper {
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+}
 .stacklist-items {
   position: relative;
   margin-bottom: -8px;
@@ -4353,7 +4380,7 @@ body {
   line-height: 140%;
 }
 .results-retry-button {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 .results-retry-button button {
@@ -4663,9 +4690,9 @@ button[disabled="disabled"] {
   border-color: #727272;
 }
 .buttons {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 0;
-  padding: 20px;
+  padding: 0;
   position: relative;
 }
 .buttons button {
@@ -6101,7 +6128,7 @@ select {
 }
 .notify .notify-popup-buttons {
   text-align: center;
-  margin-top: 0;
+  margin-top: 20px;
 }
 .notify .notify-popup-button {
   background-color: #ffffff;
@@ -6448,6 +6475,9 @@ select {
 .no-marking .component-inner .component-widget.disabled.submitted.complete .slider-scale-marker {
   color: #ccc;
   background-color: #727272;
+}
+.sortable-item {
+  background: linear-gradient(#078292, #066c7a);
 }
 .textinput-widget.disabled .textinput-item {
   border-color: #727272;

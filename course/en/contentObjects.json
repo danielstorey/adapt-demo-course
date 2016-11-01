@@ -1,49 +1,61 @@
 [
-	{
-		"_id": "co-main",
-		"_parentId": "course",
-		"_type": "page",
-		"_classes": "",
-		"title": "Custom Components & Extensions",
-		"displayTitle": "Custom Components & Extensions",
-		"body": "<strong>Interaction innovation.</strong><br><br>These components provide new ways to spice up your content and offer learners new ways of interacting.",
-		"_graphic": {
-			"src": "course/en/images/menu-1.jpg",
-			"alt": "Custom Components & Extensions."
-		},
-		"linkText": "View",
-		"durationLabel": "Duration:",
-		"duration": "2 mins",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		},
-		"_notifyOnComplete": {
-			"_isEnabled": true,
-			"message": "This notification is enabled by the Notify on Complete Extension. <a class='button' href='http://github.com/danielstorey/adapt-notifyOnComplete' target='_blank'>Click here to view on Github</a>"
-		}
-	},
-	{
-		"_id": "co-html",
-		"_parentId": "course",
-		"_type": "page",
-		"_classes": "",
-		"title": "The HTML Component",
-		"displayTitle": "The HTML Component",
-		"body": "<strong>One component - many applications.</strong><br><br>The HTML component gives you more control and options for the way your content is displayed.",
-		"pageBody": "<strong>One component - many applications.</strong><br><br>The HTML component is extremely versatile and suits those who are comfortable writing HTML and styling using CSS. This component lets you create your own template whilst also providing a useful default template which allows you loop through multiple strings or objects. Below are some examples of the different ways in which it can be used.<br><br><a class='button' href='http://github.com/danielstorey/adapt-html' target='_blank'>Click here to view on Github</a>",
-		"_graphic": {
-			"src": "course/en/images/menu-2.jpg",
-			"alt": "The HTML Component."
-		},
-		"linkText": "View",
-		"durationLabel": "Duration:",
-		"duration": "2 mins",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		},
-		"_notifyOnComplete": {
-			"_isEnabled": true,
-			"message": "This notification is enabled by the Notify on Complete Extension. <a class='button' href='http://github.com/danielstorey/adapt-notifyOnComplete' target='_blank'>Click here to view on Github</a>"
-		}
-	}
+  {
+    "_id": "co-main",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "title": "Custom Components & Extensions",
+    "displayTitle": "Custom Components & Extensions",
+    "body": "<strong>Interaction innovation.</strong><br><br>These components provide new ways to spice up your content and offer learners new ways of interacting.",
+    "_graphic": {
+      "src": "course/en/images/menu-1.jpg",
+      "alt": "Custom Components & Extensions."
+    },
+    "linkText": "View",
+    "durationLabel": "Duration:",
+    "duration": "2 mins",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_notifyOnComplete": {
+      "_isEnabled": true,
+      "message": "This notification is enabled by the Notify on Complete Extension. <a class='button' href='http://github.com/danielstorey/adapt-notifyOnComplete' target='_blank'>Click here to view on Github</a>"
+    }
+  },
+  {
+    "_id": "co-html",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "title": "The HTML Component",
+    "displayTitle": "The HTML Component",
+    "body": "<strong>One component - many applications.</strong><br><br>The HTML component gives you more control and options for the way your content is displayed.",
+    "pageBody": "<strong>One component - many applications.</strong><br><br>The HTML component is extremely versatile and suits those who are comfortable writing HTML and styling using CSS. This component lets you create your own template whilst also providing a useful default template which allows you loop through multiple strings or objects. Below are some examples of the different ways in which it can be used.<br><br><a class='button' href='http://github.com/danielstorey/adapt-html' target='_blank'>Click here to view on Github</a>",
+    "_graphic": {
+      "src": "course/en/images/menu-2.jpg",
+      "alt": "The HTML Component."
+    },
+    "linkText": "View",
+    "durationLabel": "Duration:",
+    "duration": "2 mins",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_notifyOnComplete": {
+      "_isEnabled": true,
+      "message": "This notification is enabled by the Notify on Complete Extension. <a class='button' href='http://github.com/danielstorey/adapt-notifyOnComplete' target='_blank'>Click here to view on Github</a>"
+    }
+  },
+  {
+    "_id": "co-hidden",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "title": "Secret Area",
+    "displayTitle": "Secret Area",
+    "body": "Only accessible via a direct link.",
+    "pageBody": "",
+    "_isOptional": true,
+    "_isHidden": true
+  }
 ]

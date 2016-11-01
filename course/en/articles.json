@@ -24,5 +24,14 @@
 		"title": "HTML Component Examples",
 		"displayTitle": "",
 		"body": ""
+	},
+	{
+		"_id": "a-hidden",
+		"_parentId": "co-hidden",
+		"_type": "article",
+		"_classes": "",
+		"title": "Secret Area",
+		"displayTitle": "",
+		"body": ""
 	}
 ]

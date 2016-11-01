@@ -58,5 +58,15 @@
         "displayTitle": "",
         "body": "",
         "_trackingId": 5
+    },
+    {
+        "_id": "b-hidden",
+        "_parentId": "a-hidden",
+        "_type": "block",
+        "_classes": "",
+        "title": "Secret Area",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 6
     }
 ]
