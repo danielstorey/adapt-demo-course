@@ -1590,41 +1590,27 @@ this["Handlebars"]["templates"]["sortable"] = Handlebars.template({"1":function(
 },"5":function(container,depth0,helpers,partials,data) {
     var helper;
 
-  return "                    <div class=\"sortable-item\">"
+  return "                    <div class=\"sortable-item\">\r\n                        <div class=\"sortable-item-text\">"
     + container.escapeExpression(((helper = (helper = helpers.text || (depth0 != null ? depth0.text : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"text","hash":{},"data":data}) : helper)))
-    + "</div>\r\n";
+    + "</div>\r\n                        <div class=\"sortable-item-state\">\r\n                            <div class=\"sortable-icon sortable-correct-icon icon icon-tick\"></div>\r\n                            <div class=\"sortable-icon sortable-incorrect-icon icon icon-cross\"></div>\r\n                        </div>\r\n                    </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1, helper, alias1=depth0 != null ? depth0 : {};
+    var stack1, alias1=depth0 != null ? depth0 : {};
 
   return "<div class=\"sortable-inner component-inner\">\r\n"
     + ((stack1 = container.invokePartial(partials.component,depth0,{"name":"component","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "    <div class=\"sortable-widget component-widget "
     + ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0._isEnabled : depth0),{"name":"unless","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\">\r\n\r\n        <div class=\"sortable-container\">\r\n\r\n            <div class=\"sortable-items\">\r\n"
+    + "\">\r\n\r\n        <div class=\"sortable-container\">\r\n            <div class=\"sortable-items\">\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0._itemsReordered : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "            </div>\r\n\r\n        </div>\r\n\r\n        <div class=\"debug\">\r\n	        <div>Question weight: <b>"
-    + container.escapeExpression(((helper = (helper = helpers._questionWeight || (depth0 != null ? depth0._questionWeight : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"_questionWeight","hash":{},"data":data}) : helper)))
-    + "</b></div>\r\n	        <div>Score: <b><span id=\"sortable-score\"></span></b></div>\r\n        </div>\r\n\r\n        <div class=\"buttons\">\r\n        </div>\r\n    </div>\r\n</div>  \r\n";
+    + "            </div>\r\n        </div>\r\n\r\n        <div class=\"buttons\"></div>\r\n    </div>\r\n</div>";
 },"usePartial":true,"useData":true});
 
 this["Handlebars"]["templates"]["stacklist"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "            <div class=\"stacklist-item\">\r\n"
-    + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : {},(depth0 != null ? depth0.length : depth0),{"name":"if","hash":{},"fn":container.program(2, data, 0),"inverse":container.program(4, data, 0),"data":data})) != null ? stack1 : "")
-    + "            </div>\r\n";
-},"2":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return "                    "
+  return "            <div class=\"stacklist-item\">"
     + ((stack1 = (helpers.a11y_text || (depth0 && depth0.a11y_text) || helpers.helperMissing).call(depth0 != null ? depth0 : {},depth0,{"name":"a11y_text","hash":{},"data":data})) != null ? stack1 : "")
-    + "\r\n";
-},"4":function(container,depth0,helpers,partials,data) {
-    var helper;
-
-  return "                    "
-    + container.escapeExpression(((helper = (helper = helpers.body || (depth0 != null ? depth0.body : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : {},{"name":"body","hash":{},"data":data}) : helper)))
-    + "\r\n";
+    + "</div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
