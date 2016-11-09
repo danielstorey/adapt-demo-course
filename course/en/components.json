@@ -221,7 +221,7 @@
       {
         "image": "course/en/images/backgrounds/background6.jpg",
         "title": "Make an Impact",
-        "body": "Get your learner's attention using high quality images with the Background Scroll component.<div><a class='button' href='http://github.com/danielstorey/adapt-reveal' target='_blank' tabindex='0'>Click here to view on Github</a></div>"
+        "body": "Get your learner's attention using high quality images with the Background Scroll component.<div style='text-align:right;'><a class='button' href='http://github.com/danielstorey/adapt-backgroundScroll' target='_blank' tabindex='0'>Click here to view on Github</a></div>"
       }
     ]
   },
@@ -326,7 +326,6 @@
     "displayTitle": "",
     "body": "<a class='button' href='http://github.com/danielstorey/adapt-reveal' target='_blank'>Click here to view on Github</a>"
   },
-
 
   {
     "_id": "c-html-1",
@@ -444,19 +443,19 @@
     "_background" : "",
     "_items": [
       {
-        "text": "1. Leave a message for your partner explaining that you will be 30 minutes late"
+        "text": "E. Leave a message for your partner explaining that you will be 30 minutes late"
       },
       {
-        "text": "2. Make a list of patients and outstanding investigations to give to your colleague as soon as she arrives"
+        "text": "C. Make a list of patients and outstanding investigations to give to your colleague as soon as she arrives"
       },
       {
-        "text": "3. Ask your registrar if you can leave a list of your patients and their outstanding issues with him to give to your colleague when she arrives and then leave at the end of your shift"
+        "text": "D. Ask your registrar if you can leave a list of your patients and their outstanding issues with him to give to your colleague when she arrives and then leave at the end of your shift"
       },
       {
-        "text": "4. Quickly go around each of the patients on the AAU, leaving an entry in the notes highlighting the major outstanding issues relating to each patient and then leave at the end of your shift"
+        "text": "B. Quickly go around each of the patients on the AAU, leaving an entry in the notes highlighting the major outstanding issues relating to each patient and then leave at the end of your shift"
       },
       {
-        "text": "5. Make a list of the patients under your care on the AAU, detailing their outstanding issues, leaving this on the doctor's office notice board when your shift ends and then leave at the end of your shift"
+        "text": "A. Make a list of the patients under your care on the AAU, detailing their outstanding issues, leaving this on the doctor's office notice board when your shift ends and then leave at the end of your shift"
       }
 
     ],
@@ -468,7 +467,7 @@
       },
       "_partlyCorrect": {
         "notFinal": "",
-        "final": "This question asks you to demonstrate your commitment to patient care. Although it is not appropriate for trainees to stay for an extensive period of time after their shift ends, or do this in a regular basis, staying an extra 30 minutes on this occasion is important to ensure an effective handover <b>(E)</b>. It is more appropriate to provide information directly to your colleague to ensure they receive it <b>(C)</b> and your specialty trainee (registrar) could also be able to ensure that your colleague received the information <b>(D)</b>. Leaving lists of information on the end of a bed is less effective and leaving a list on the notice board is least effective as your colleague is unlikely to know it is there <b>(B, A)</b>."
+        "final": "This feedback will appear if you answered part of the question correctly."
       }
     },
     "_pageLevelProgress": {
